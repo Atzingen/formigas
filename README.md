@@ -9,3 +9,7 @@ Para utilizar os scripts, replicar o código ou contribuir é necessário:
 * Clonar o repositório
 * Criar um ambiente virtual do python 3.11 com as bibliotecas do requirements.txt
 * Clonar as pastas *datasets*, *models* e *runs* na raiz do projeto. Estas estão fora do controle de versão devido ao tamanho e natureza dos arquivos.
+* Adicionar a chave de API do roboflow no arquivo *.env* (não versionado) caso o download do dataset seja com a biblioteca deles
+```bash
+ROBOFLOW_API_KEY=""
+```

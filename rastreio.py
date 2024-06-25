@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 from ultralytics import YOLO
-import supervision as sv
 from collections import defaultdict
 
 # ajuste o caminho do vídeo como necessário.
